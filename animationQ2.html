@@ -1,0 +1,24 @@
+<html>
+    <head>
+    <style>
+         @keyframes abc{
+                /* from {background-color:pink}
+                to {background-color:cyan} */
+                0%{background-color: rgb(214, 228, 15);top:0px;left:0}
+                50%{background-color:rgb(210, 15, 228);top:100px;left:50;border-radius: 50%;;transform: rotate(3600deg)}
+                100%{background-color:rgb(207, 128, 10);top:0px;left:100}
+            }
+            div{
+                height: 100px; width: 100px; background-color: tomato; animation-name: abc;
+                animation-duration: 10s; animation-delay: 0s ; animation-iteration-count: infinite;
+                animation-direction: normal ;position:relative;
+            }
+        /* div:hover{height: 200;width: 200; background-color: cyan;transform: rotate(3600deg);
+             border-radius: 50%;
+        } */
+    </style>
+</head>
+<body>
+    <div> </div>
+</body>
+</html>

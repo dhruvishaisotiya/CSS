@@ -1,0 +1,25 @@
+<!-- top left cyan top right red and botem right and bottem left -->
+ <html>
+    <head>
+        <style>
+            @keyframes abc{
+                /* from {background-color:pink}
+                to {background-color:cyan} */
+                0%{background-color: cyan;top:0px;left:0}
+                25%{background-color: red;top:0px;left:100}
+                50%{background-color: green;top:100px;left:100}
+                100%{background-color: blue;top:100px;left:0}
+            }
+            div{
+                height: 100px; width: 100px; background-color: tomato; animation-name: abc;
+                animation-duration: 10s; animation-delay: 0s ; animation-iteration-count: infinite;
+                animation-direction: normal ;position:relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div  class="b">
+
+        </div>
+    </body>
+</html>
